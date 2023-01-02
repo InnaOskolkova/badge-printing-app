@@ -1,0 +1,10 @@
+.button {
+  font-family:Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius:4px;
+  border: 2px solid #70a1ff;
+  background-color: #ffffff;
+  color: #70a1ff;
+  padding: 8px 8px;
+}

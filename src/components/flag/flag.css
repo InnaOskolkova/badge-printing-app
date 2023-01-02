@@ -1,0 +1,97 @@
+.flag-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.checkbox {
+  width: 14px;
+  height: 14px;
+  display: block;
+  border-radius: 4px;
+  border: 2px solid #7bed9f;
+  background-color: #ffffff; 
+}
+
+.checkbox.m-checked {
+  position: relative;
+}
+
+.checkbox.m-checked::before {
+  width: 10px;
+  height: 10px;
+  content: "";
+  position: absolute;
+  border-radius: 2px;
+  top: 2px;
+  left: 2px;
+  background-color: #7bed9f;
+}
+
+.radio {
+  width: 14px;
+  height: 14px;
+  display: block;
+  border-radius: 50%;
+  border: 2px solid #7bed9f;
+  background-color: #ffffff; 
+}
+
+.radio.m-checked {
+  position: relative;
+}
+
+.radio.m-checked::before {
+  width: 10px;
+  height: 10px;
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  top: 2px;
+  left: 2px;
+  background-color: #7bed9f;
+}
+
+
+.toggle {
+  width: 28px;
+  height: 14px;
+  display: block;
+  border-radius: 9px;
+  border: 2px solid #7bed9f;
+  background-color: #ffffff; 
+}
+
+.toggle2 {
+  border: 2px solid #ced6e0;  
+}
+
+.toggle.m-checked {
+  position: relative;
+}
+
+.toggle.m-checked::before {
+  width: 10px;
+  height: 10px;
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  top: 2px;
+  right: 2px;
+  background-color: #7bed9f;
+}
+
+.toggle.m-unchecked {
+  position: relative;
+}
+
+.toggle.m-unchecked::before {
+  width: 10px;
+  height: 10px;
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  top: 2px;
+  left: 2px;
+  background-color: #ced6e0;
+}

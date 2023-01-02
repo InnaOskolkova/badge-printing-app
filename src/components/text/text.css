@@ -1,0 +1,26 @@
+.text {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+.text.m-align-left { text-align: left; }
+
+.text.m-align-center { text-align: center; }
+
+.text.m-align-right { text-align: right; }
+
+.text.m-size-small { font-size: 10px; }
+
+.text.m-size-medium { font-size: 12px; }
+
+.text.m-size-large { font-size: 14px; }
+
+.text.m-weight-normal { font-weight: normal; }
+
+.text.m-weight-bold { font-weight: bold; }
+
+.text.m-color-blue { color: #70a1ff; }
+
+.text.m-color-green { color: #7bed9f; }
+
+.text.m-color-black { color: #000000; }
